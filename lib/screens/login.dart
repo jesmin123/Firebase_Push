@@ -26,8 +26,9 @@ class _LoginState extends State<Login> {
         child: Form(
           key: _formKey,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(height: 20,),
+
               Container(
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
